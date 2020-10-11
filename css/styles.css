@@ -1,0 +1,12 @@
+#container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(16,1fr);
+    border: black solid 1px;
+}
+
+.panel.drawnOn {
+    background-color: red;
+}
